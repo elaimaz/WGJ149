@@ -22,12 +22,7 @@ public class GameManager : MonoBehaviour
     public Item firstItem;
     public Item secondItem;
 
-    public Item lastOneLeft;
-
-    private string name;
-    private string description;
-    private string type;
-    private Sprite sprite;
+    public Item lastOneLeft = null;
 
     private void Awake()
     {
@@ -37,6 +32,14 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         ChooseRandomOrder();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Mix();
+        }
     }
 
     private void ChooseRandomOrder()
@@ -105,20 +108,11 @@ public class GameManager : MonoBehaviour
         return choosenItem;
     }
 
-    public void AddLastOne(string nameItem, string typeItem, string desc, Sprite spr)
+    public void Mix()
     {
-        name = nameItem;
-        type = typeItem;
-        description = desc;
-        sprite = spr;
-
-    }
-
-    public void TryMix()
-    {
-        Debug.Log(name);
-        Debug.Log(type);
-        Debug.Log(description);
+        Debug.Log(lastOneLeft.Name);
+        Debug.Log(lastOneLeft.ItemType.ToString());
+        Debug.Log(lastOneLeft.Description);
         if (lastOneLeft != null)
         {
             string liquid;

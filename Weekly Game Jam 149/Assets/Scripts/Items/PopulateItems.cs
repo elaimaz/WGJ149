@@ -15,7 +15,7 @@ public class PopulateItems : MonoBehaviour
         {
             Item item = ItemsList.Instance.Items[count];
             transform.GetChild(count).GetComponentInChildren<DragAndDropItens>().item = item;
-            transform.GetChild(count).GetComponentInChildren<Image>().sprite = item.ItemSprite;
+            transform.GetChild(count).GetChild(0).GetComponent<Image>().sprite = item.ItemSprite;
             count++;
         }
     }

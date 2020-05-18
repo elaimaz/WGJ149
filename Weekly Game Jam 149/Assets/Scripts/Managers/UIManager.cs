@@ -45,4 +45,9 @@ public class UIManager : MonoBehaviour
         LastOneLeftSprite.GetComponent<Image>().sprite = sprite;
     }
 
+    public void CallMix()
+    {
+        GameManager.Instance.Mix();
+    }
+
 }
