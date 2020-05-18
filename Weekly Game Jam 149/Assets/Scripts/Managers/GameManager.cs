@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void ChooseRandomOrder()
+    public void ChooseRandomOrder()
     {
         int recipesCount;
         int randomRecipeNumber;
