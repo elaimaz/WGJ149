@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
 
     public GameObject OrderPanel;
     public GameObject DescriptionPanel;
+    public GameObject RightWrongPanel;
 
     public GameObject LastOneLeftSprite;
 
@@ -48,6 +49,22 @@ public class UIManager : MonoBehaviour
     public void CallMix()
     {
         GameManager.Instance.Mix();
+    }
+
+    public void RightPanel()
+    {
+        RightWrongPanel.SetActive(true);
+        Text text = RightWrongPanel.GetComponentInChildren<Text>();
+        text.color = Color.green;
+        text.text = "Right Mix";
+    }
+
+    public void WrongPanel()
+    {
+        RightWrongPanel.SetActive(true);
+        Text text = RightWrongPanel.GetComponentInChildren<Text>();
+        text.color = Color.red;
+        text.text = "Wrong Mix";
     }
 
 }

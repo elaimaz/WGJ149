@@ -110,14 +110,12 @@ public class GameManager : MonoBehaviour
 
     public void Mix()
     {
-        Debug.Log(lastOneLeft.Name);
-        Debug.Log(lastOneLeft.ItemType.ToString());
-        Debug.Log(lastOneLeft.Description);
         if (lastOneLeft != null)
         {
             string liquid;
             string solid;
             string magic;
+            bool correct = false;
 
             if (firstItem.ItemType.ToString() == "RedLiquid" || firstItem.ItemType.ToString() == "GreenLiquid" || firstItem.ItemType.ToString() == "BlueLiquid" || firstItem.ItemType.ToString() == "YellowLiquid")
             {
@@ -162,9 +160,14 @@ public class GameManager : MonoBehaviour
             {
                 if (rec.LiquidElement.ToString() == liquid && rec.SolidElement.ToString() == solid && rec.MagicElement.ToString() == magic)
                 {
-                    Debug.Log(rec.Name);
-                    Debug.Log("Correct");
+                    UIManager.Instance.RightPanel();
+                    correct = true;
                 }
+            }
+
+            if (correct == false)
+            {
+                UIManager.Instance.WrongPanel();
             }
         }
         else
