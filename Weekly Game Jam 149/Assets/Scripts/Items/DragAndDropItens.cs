@@ -9,7 +9,7 @@ public class DragAndDropItens : MonoBehaviour, IPointerDownHandler
     {
         if (item != null)
         {
-            GameManager.Instance.AddLastOne(item.Name, item.ItemType.ToString(), item.Description, item.ItemSprite);
+            GameManager.Instance.lastOneLeft = item;
             UIManager.Instance.UpdateDescriptionPanelText(item.Description, item.Name, item.ItemType.ToString());
             UIManager.Instance.UpdateLastOneImage(item.ItemSprite);
         }

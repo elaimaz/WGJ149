@@ -44,147 +44,147 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Items:
+  - Name: Ruby
+    ItemType: 4
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: fcb9a6c08c4279341aa644a881bf060c, type: 3}
   - Name: Red Garnet
     ItemType: 4
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Morenezon
+    ItemSprite: {fileID: 21300000, guid: fa17e8d45bc411348a56ae5788cf1da7, type: 3}
+  - Name: Heart Stone
     ItemType: 4
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Ilfetton
-    ItemType: 4
-    Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Blue Quartz
+    ItemSprite: {fileID: 21300000, guid: cf0fe4603c1f0d842aa3870b7baf8b5d, type: 3}
+  - Name: Mana Stone
     ItemType: 6
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: 5ce551bba9d7b4f479f1dee5042734f0, type: 3}
   - Name: Moonstone
     ItemType: 6
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Milloiwite
+    ItemSprite: {fileID: 21300000, guid: 7123dbfc3df508341b414a8bd18c361b, type: 3}
+  - Name: Frozen Tear
     ItemType: 6
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: da72aea800bea9644b0aef69f9b04553, type: 3}
   - Name: Green Emerald
     ItemType: 5
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: 1b8bc31ea65fe834fba448650bb4c55c, type: 3}
   - Name: Lindsorneium
     ItemType: 5
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Allicksirine
+    ItemSprite: {fileID: 21300000, guid: 2a28b304816ca3740b051940728ff6e7, type: 3}
+  - Name: Time Stone
     ItemType: 5
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Yellow Tourmaline
+    ItemSprite: {fileID: 21300000, guid: 55c4eff9686c62440a22d171d0946c62, type: 3}
+  - Name: Amber
     ItemType: 7
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Ericksolide
+    ItemSprite: {fileID: 21300000, guid: 174d0671628e9034e8995c78148355d8, type: 3}
+  - Name: Lightning Gem
     ItemType: 7
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Iozene
+    ItemSprite: {fileID: 21300000, guid: e4c006d9cacedad4f9dd346c88bc0c4b, type: 3}
+  - Name: Stoneedge
     ItemType: 7
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Red juice
+    ItemSprite: {fileID: 21300000, guid: 0fada6f95ef55c54cb7f6eb012de4419, type: 3}
+  - Name: Life Drops
     ItemType: 0
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Qiezzyr
+    ItemSprite: {fileID: 21300000, guid: 36db4c8f0bdd44e4e80f88436f1c1528, type: 3}
+  - Name: Rose Dew
     ItemType: 0
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Fairy Blood
+    ItemSprite: {fileID: 21300000, guid: c1e52df9b96cdab41a51c88231fc3805, type: 3}
+  - Name: Vampire Blood
     ItemType: 0
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Water Fountain
+    ItemSprite: {fileID: 21300000, guid: c0359a52160e77d4db1d5c982fe0999b, type: 3}
+  - Name: Ether Drop
     ItemType: 2
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Midnight Wine
+    ItemSprite: {fileID: 21300000, guid: 74586a97ef5b4ae4592ae28589f43203, type: 3}
+  - Name: Liquid Mana
     ItemType: 2
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Enbella
+    ItemSprite: {fileID: 21300000, guid: 847c57f240a340f408f8debb5527486a, type: 3}
+  - Name: Mana Flowerdew
     ItemType: 2
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Green Elixir
+    ItemSprite: {fileID: 21300000, guid: 6c942f098c537d64bb06e186b6ff1df1, type: 3}
+  - Name: Gelatin Drops
     ItemType: 1
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Yesanith
+    ItemSprite: {fileID: 21300000, guid: 9f0e5ba9076c96b4e9114d18f5ccf8f5, type: 3}
+  - Name: Druid Dew
     ItemType: 1
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Vulre
+    ItemSprite: {fileID: 21300000, guid: 17eef899df7c2cd4a92c29754f14aabe, type: 3}
+  - Name: Slime Remnants
     ItemType: 1
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Yellow Dragon Fire
+    ItemSprite: {fileID: 21300000, guid: 77fcc24bfb128a34d820880c7ec675b4, type: 3}
+  - Name: Angel Tears
     ItemType: 3
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Giant Beer
+    ItemSprite: {fileID: 21300000, guid: 14b68a65b424b194c8b18f89470837b5, type: 3}
+  - Name: Blessed Water
     ItemType: 3
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Faraine
+    ItemSprite: {fileID: 21300000, guid: 0af2f77d4f2e7534f9f616adf1a59c0c, type: 3}
+  - Name: Angel Flowerdew
     ItemType: 3
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: "Siren\u2019s tear"
+    ItemSprite: {fileID: 21300000, guid: 2d2c9e211e5be3b4e89bab33d1b65cec, type: 3}
+  - Name: Life Essence
     ItemType: 8
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Heart Fire
+    ItemSprite: {fileID: 21300000, guid: 513c05da70c0e35429605cbd59c81de4, type: 3}
+  - Name: Golem Core
     ItemType: 8
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Phoenix Blood
+    ItemSprite: {fileID: 21300000, guid: bd67e6b45f1eee94789818a62c9908b5, type: 3}
+  - Name: Phoenix Feather
     ItemType: 8
     Description: Health
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Fairy Dust
+    ItemSprite: {fileID: 21300000, guid: cf4850aed3a3e2145bbc6f6b452196f3, type: 3}
+  - Name: Faerie Dust
     ItemType: 10
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: 28a2a80c2fe466640b1e2108254113da, type: 3}
   - Name: Northern Star
     ItemType: 10
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: 93b88830bd57e144ca8aa6eea947c415, type: 3}
   - Name: "Aurora\u2019s trail"
     ItemType: 10
     Description: Mana
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: "Unicorn\u2019s Mane"
+    ItemSprite: {fileID: 21300000, guid: b57324de43e61724d8e6ddff505918f7, type: 3}
+  - Name: Nymph Soul
     ItemType: 9
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Angel Wing
+    ItemSprite: {fileID: 21300000, guid: ac75f74cb5995a04a9e851b3160daa09, type: 3}
+  - Name: Hermes Feather
     ItemType: 9
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Elven Leaf
+    ItemSprite: {fileID: 21300000, guid: 30483d77e0cb1994b936300ad064b0d7, type: 3}
+  - Name: Ent Leaf
     ItemType: 9
     Description: Agility
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Mountain Strength
+    ItemSprite: {fileID: 21300000, guid: 63e9593ca4a86ce4b85682aca1677e6c, type: 3}
+  - Name: Hero Soul
     ItemType: 11
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: 2fffcb6e3322eb848b0b6538fbdb2bdb, type: 3}
   - Name: "Troll\u2019s Heart"
     ItemType: 11
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
-  - Name: Titan Grip
+    ItemSprite: {fileID: 21300000, guid: fec75180d6f719c48813e4878f36f0fb, type: 3}
+  - Name: Titan Core
     ItemType: 11
     Description: Strength
-    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    ItemSprite: {fileID: 21300000, guid: 2bc69ef6a149f29448727f02993cc9fd, type: 3}
