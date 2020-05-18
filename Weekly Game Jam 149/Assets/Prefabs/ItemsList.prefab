@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1414813556975807731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414813556975807729}
+  - component: {fileID: 1414813556975807728}
+  m_Layer: 0
+  m_Name: ItemsList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414813556975807729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414813556975807731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1414813556975807728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414813556975807731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0f9122e8fc7a44087d48012dccdb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - Name: Red Garnet
+    ItemType: 4
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Morenezon
+    ItemType: 4
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Ilfetton
+    ItemType: 4
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Blue Quartz
+    ItemType: 6
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Moonstone
+    ItemType: 6
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Milloiwite
+    ItemType: 6
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Green Emerald
+    ItemType: 5
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Lindsorneium
+    ItemType: 5
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Allicksirine
+    ItemType: 5
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Yellow Tourmaline
+    ItemType: 7
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Ericksolide
+    ItemType: 7
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Iozene
+    ItemType: 7
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Red juice
+    ItemType: 0
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Qiezzyr
+    ItemType: 0
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Fairy Blood
+    ItemType: 0
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Water Fountain
+    ItemType: 2
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Midnight Wine
+    ItemType: 2
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Enbella
+    ItemType: 2
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Green Elixir
+    ItemType: 1
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Yesanith
+    ItemType: 1
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Vulre
+    ItemType: 1
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Yellow Dragon Fire
+    ItemType: 3
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Giant Beer
+    ItemType: 3
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Faraine
+    ItemType: 3
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: "Siren\u2019s tear"
+    ItemType: 8
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Heart Fire
+    ItemType: 8
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Phoenix Blood
+    ItemType: 8
+    Description: Health
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Fairy Dust
+    ItemType: 10
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Northern Star
+    ItemType: 10
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: "Aurora\u2019s trail"
+    ItemType: 10
+    Description: Mana
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: "Unicorn\u2019s Mane"
+    ItemType: 9
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Angel Wing
+    ItemType: 9
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Elven Leaf
+    ItemType: 9
+    Description: Agility
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Mountain Strength
+    ItemType: 11
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: "Troll\u2019s Heart"
+    ItemType: 11
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+  - Name: Titan Grip
+    ItemType: 11
+    Description: Strength
+    ItemSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
