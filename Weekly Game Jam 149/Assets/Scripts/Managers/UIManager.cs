@@ -67,4 +67,15 @@ public class UIManager : MonoBehaviour
         text.text = "Wrong Mix";
     }
 
+    public void RestartOrder()
+    {
+        GameManager.Instance.ChooseRandomOrder();
+        LastOneLeftSprite.GetComponent<Image>().sprite = null;
+    }
+
+    public void CloseRightWrongPanel()
+    {
+        RightWrongPanel.SetActive(false);
+    }
+
 }
