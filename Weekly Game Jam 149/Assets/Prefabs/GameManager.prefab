@@ -43,6 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97f82eed56766246beb4f4b5585036c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  recipe:
+    Id: 0
+    Name: 
+    LiquidElement: 0
+    SolidElement: 0
+    MagicElement: 0
+    RecipeSprite: {fileID: 0}
   firstItem:
     Name: 
     ItemType: 0
@@ -58,3 +65,5 @@ MonoBehaviour:
     ItemType: 0
     Description: 
     ItemSprite: {fileID: 0}
+  time: 30
+  timeUp: 0
