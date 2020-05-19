@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     public float time = 30f;
     public bool timeUp = false;
 
+    public List<Item> randomItemList = new List<Item>();
+
     private void Awake()
     {
         _instance = this;
@@ -70,6 +72,8 @@ public class GameManager : MonoBehaviour
         RevelItems(recipe);
 
         UIManager.Instance.UpdateOrderPanelText(recipe.Name, recipe.SolidElement.ToString(), recipe.LiquidElement.ToString(), recipe.MagicElement.ToString());
+        RandomizeItemList();
+        PopulateItems.Instance.PopulateItemsBoard();
     }
 
     private void RevelItems(Recipe recipe)
@@ -189,6 +193,18 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.Log("Last one is NULL");
+        }
+    }
+
+    public void RandomizeItemList()
+    {
+        randomItemList = ItemsList.Instance.Items;
+        for (int i = 0; i < randomItemList.Count; i++)
+        {
+            Item temp = randomItemList[i];
+            int randomIndex = Random.Range(i, randomItemList.Count);
+            randomItemList[i] = randomItemList[randomIndex];
+            randomItemList[randomIndex] = temp;
         }
     }
 }
