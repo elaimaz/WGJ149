@@ -68,9 +68,19 @@ public class UIManager : MonoBehaviour
         text.text = "Wrong Mix";
     }
 
+    public void TimesUpPanel()
+    {
+        RightWrongPanel.SetActive(true);
+        Text text = RightWrongPanel.GetComponentInChildren<Text>();
+        text.color = Color.yellow;
+        text.text = "Time Ended";
+    }
+
     public void RestartOrder()
     {
         GameManager.Instance.ChooseRandomOrder();
+        GameManager.Instance.time = 30f;
+        GameManager.Instance.timeUp = false;
         LastOneLeftSprite.GetComponent<Image>().sprite = null;
     }
 

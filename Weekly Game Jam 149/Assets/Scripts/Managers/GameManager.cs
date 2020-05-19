@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public Item lastOneLeft = null;
 
     public float time = 30f;
+    public bool timeUp = false;
 
     private void Awake()
     {
@@ -38,7 +39,18 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        time -= Time.deltaTime;
+        if (time >= 0)
+        {
+            time -= Time.deltaTime;
+        }
+        else
+        {
+            if (timeUp == true)
+            {
+                UIManager.Instance.TimesUpPanel();
+            }
+            timeUp = true;
+        }
         UIManager.Instance.UpdateTimer();
         if (Input.GetKeyDown(KeyCode.Space))
         {
