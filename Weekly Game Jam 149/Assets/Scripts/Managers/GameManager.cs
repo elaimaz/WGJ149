@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     public Item lastOneLeft = null;
 
+    public float time = 30f;
+
     private void Awake()
     {
         _instance = this;
@@ -36,6 +38,8 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        time -= Time.deltaTime;
+        UIManager.Instance.UpdateTimer();
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Mix();

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -78,4 +79,9 @@ public class UIManager : MonoBehaviour
         RightWrongPanel.SetActive(false);
     }
 
+    public void UpdateTimer()
+    {
+        int timer = (int)GameManager.Instance.time;
+        OrderPanel.transform.GetChild(1).GetComponent<Text>().text = "Time: " + timer.ToString();
+    }
 }
