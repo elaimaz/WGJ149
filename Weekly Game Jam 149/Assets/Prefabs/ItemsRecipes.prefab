@@ -49,238 +49,238 @@ MonoBehaviour:
     LiquidElement: 2
     SolidElement: 2
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: f8dcd9ddbb07f4c4cb9b9dc2a043eae7, type: 3}
   - Id: 2
     Name: Healing Mana Potion
     LiquidElement: 0
     SolidElement: 2
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 6eb65677fccfd8f4c9c4de7990b59153, type: 3}
   - Id: 3
     Name: Healing Mana Potion
     LiquidElement: 2
     SolidElement: 0
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 6eb65677fccfd8f4c9c4de7990b59153, type: 3}
   - Id: 4
     Name: Healing Mana Potion
     LiquidElement: 2
     SolidElement: 2
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 6eb65677fccfd8f4c9c4de7990b59153, type: 3}
   - Id: 5
     Name: Fast Mana Potion
     LiquidElement: 1
     SolidElement: 2
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 245620128ff59274e8716c6f7befebb4, type: 3}
   - Id: 6
     Name: Fast Mana Potion
     LiquidElement: 2
     SolidElement: 1
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 245620128ff59274e8716c6f7befebb4, type: 3}
   - Id: 7
     Name: Fast Mana Potion
     LiquidElement: 2
     SolidElement: 2
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 245620128ff59274e8716c6f7befebb4, type: 3}
   - Id: 8
     Name: Strong Mana Potion
     LiquidElement: 3
     SolidElement: 2
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: a4abe5e69ff316c44a30eea93b2570c8, type: 3}
   - Id: 9
     Name: Strong Mana Potion
     LiquidElement: 2
     SolidElement: 3
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: a4abe5e69ff316c44a30eea93b2570c8, type: 3}
   - Id: 10
     Name: Strong Mana Potion
     LiquidElement: 2
     SolidElement: 2
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: a4abe5e69ff316c44a30eea93b2570c8, type: 3}
   - Id: 11
     Name: Grand Health Potion
     LiquidElement: 0
     SolidElement: 0
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 3f63d7918e968e44d9eb04db906a8106, type: 3}
   - Id: 12
     Name: Magic Health Potion
     LiquidElement: 2
     SolidElement: 0
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 577c7275bac62e4469df491ff38ca3e0, type: 3}
   - Id: 13
     Name: Magic Health Potion
     LiquidElement: 0
     SolidElement: 2
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 577c7275bac62e4469df491ff38ca3e0, type: 3}
   - Id: 14
     Name: Magic Health Potion
     LiquidElement: 0
     SolidElement: 0
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 577c7275bac62e4469df491ff38ca3e0, type: 3}
   - Id: 15
     Name: Fast Health Potion
     LiquidElement: 1
     SolidElement: 0
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 8440605a5c76b4b4b887cf31fd20e03f, type: 3}
   - Id: 16
     Name: Fast Health Potion
     LiquidElement: 0
     SolidElement: 1
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 8440605a5c76b4b4b887cf31fd20e03f, type: 3}
   - Id: 17
     Name: Fast Health Potion
     LiquidElement: 0
     SolidElement: 0
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 8440605a5c76b4b4b887cf31fd20e03f, type: 3}
   - Id: 18
     Name: Strong Health Potion
     LiquidElement: 3
     SolidElement: 0
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: c8e7ff7c0b78a69419cedae006d7c57e, type: 3}
   - Id: 19
     Name: Strong Health Potion
     LiquidElement: 0
     SolidElement: 3
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: c8e7ff7c0b78a69419cedae006d7c57e, type: 3}
   - Id: 20
     Name: Strong Health Potion
     LiquidElement: 0
     SolidElement: 0
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: c8e7ff7c0b78a69419cedae006d7c57e, type: 3}
   - Id: 21
     Name: Grand Agility Potion
     LiquidElement: 1
     SolidElement: 1
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 7e76566d850e6c546a084ee3844254b8, type: 3}
   - Id: 22
     Name: Healing Agility Potion
     LiquidElement: 0
     SolidElement: 1
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 9aae722a946ddc544bc9815174d03f7b, type: 3}
   - Id: 23
     Name: Healing Agility Potion
     LiquidElement: 1
     SolidElement: 0
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 9aae722a946ddc544bc9815174d03f7b, type: 3}
   - Id: 24
     Name: Healing Agility Potion
     LiquidElement: 1
     SolidElement: 1
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 9aae722a946ddc544bc9815174d03f7b, type: 3}
   - Id: 25
     Name: Magic Agility Potion
     LiquidElement: 2
     SolidElement: 1
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 103f5d29204504c4e8f8848d1a5d2ba7, type: 3}
   - Id: 26
     Name: Magic Agility Potion
     LiquidElement: 1
     SolidElement: 2
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 103f5d29204504c4e8f8848d1a5d2ba7, type: 3}
   - Id: 27
     Name: Magic Agility Potion
     LiquidElement: 1
     SolidElement: 1
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 103f5d29204504c4e8f8848d1a5d2ba7, type: 3}
   - Id: 28
     Name: Strong Agility Potion
     LiquidElement: 3
     SolidElement: 1
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 4472e5a1a6ab06b49adcdbbcaae66e16, type: 3}
   - Id: 29
     Name: Strong Agility Potion
     LiquidElement: 1
     SolidElement: 3
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 4472e5a1a6ab06b49adcdbbcaae66e16, type: 3}
   - Id: 30
     Name: Strong Agility Potion
     LiquidElement: 1
     SolidElement: 1
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 4472e5a1a6ab06b49adcdbbcaae66e16, type: 3}
   - Id: 31
     Name: Grand Strength Potion
     LiquidElement: 3
     SolidElement: 3
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 99ec64b75ee06a74e9c706bd247d8cdb, type: 3}
   - Id: 32
     Name: Healing Strength Potion
     LiquidElement: 0
     SolidElement: 3
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 0a82dc70b31d8924bbcff4e3b69ef798, type: 3}
   - Id: 33
     Name: Healing Strength Potion
     LiquidElement: 3
     SolidElement: 0
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 0a82dc70b31d8924bbcff4e3b69ef798, type: 3}
   - Id: 34
     Name: Healing Strength Potion
     LiquidElement: 3
     SolidElement: 3
     MagicElement: 0
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 0a82dc70b31d8924bbcff4e3b69ef798, type: 3}
   - Id: 35
     Name: Magic Strength Potion
     LiquidElement: 2
     SolidElement: 3
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 9cd6555bac48ea84e8e45ffba492941d, type: 3}
   - Id: 36
     Name: Magic Strength Potion
     LiquidElement: 3
     SolidElement: 2
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 9cd6555bac48ea84e8e45ffba492941d, type: 3}
   - Id: 37
     Name: Magic Strength Potion
     LiquidElement: 3
     SolidElement: 3
     MagicElement: 2
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 9cd6555bac48ea84e8e45ffba492941d, type: 3}
   - Id: 38
     Name: Fast Strength Potion
     LiquidElement: 1
     SolidElement: 3
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 103345426fbb6954a847e015f42dae1d, type: 3}
   - Id: 39
     Name: Fast Strength Potion
     LiquidElement: 3
     SolidElement: 1
     MagicElement: 3
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 103345426fbb6954a847e015f42dae1d, type: 3}
   - Id: 40
     Name: Fast Strength Potion
     LiquidElement: 3
     SolidElement: 3
     MagicElement: 1
-    RecipeSprite: {fileID: 21300000, guid: da3faf1e66107f74ca034762037d4e94, type: 3}
+    RecipeSprite: {fileID: 21300000, guid: 103345426fbb6954a847e015f42dae1d, type: 3}

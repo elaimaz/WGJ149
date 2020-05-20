@@ -65,5 +65,7 @@ MonoBehaviour:
     ItemType: 0
     Description: 
     ItemSprite: {fileID: 0}
-  time: 30
+  time: 31
   timeUp: 0
+  timeStop: 0
+  randomItemList: []

@@ -666,7 +666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3920,6 +3920,7 @@ MonoBehaviour:
   DescriptionPanel: {fileID: 501629175}
   RightWrongPanel: {fileID: 1198500867}
   LastOneLeftSprite: {fileID: 1552722655}
+  CreatedPotion: {fileID: 1055574319}
 --- !u!1 &3571563720077171891
 GameObject:
   m_ObjectHideFlags: 0
