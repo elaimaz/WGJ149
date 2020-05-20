@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
     public GameObject RightWrongPanel;
 
     public GameObject LastOneLeftSprite;
+    public GameObject CreatedPotion;
 
     private void Awake()
     {
@@ -79,9 +80,12 @@ public class UIManager : MonoBehaviour
     public void RestartOrder()
     {
         GameManager.Instance.ChooseRandomOrder();
-        GameManager.Instance.time = 30f;
+        GameManager.Instance.time = 31f;
         GameManager.Instance.timeUp = false;
+        GameManager.Instance.timeStop = false;
+        GameManager.Instance.lastOneLeft.Name = "";
         LastOneLeftSprite.GetComponent<Image>().sprite = null;
+        CreatedPotion.GetComponent<Image>().sprite = null;
     }
 
     public void CloseRightWrongPanel()

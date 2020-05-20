@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     public float time = 30f;
     public bool timeUp = false;
+    public bool timeStop = false;
 
     public List<Item> randomItemList = new List<Item>();
 
@@ -41,11 +43,11 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (time >= 0)
+        if (time >= 0 && timeStop == false)
         {
             time -= Time.deltaTime;
         }
-        else
+        else if(timeStop == false)
         {
             if (timeUp == true)
             {
@@ -130,8 +132,9 @@ public class GameManager : MonoBehaviour
 
     public void Mix()
     {
-        if (lastOneLeft != null)
+        if (lastOneLeft.Name.Length > 0)
         {
+            timeStop = true;
             string liquid;
             string solid;
             string magic;
@@ -180,15 +183,11 @@ public class GameManager : MonoBehaviour
             {
                 if (rec.LiquidElement.ToString() == liquid && rec.SolidElement.ToString() == solid && rec.MagicElement.ToString() == magic)
                 {
-                    UIManager.Instance.RightPanel();
+                    UIManager.Instance.CreatedPotion.GetComponent<Image>().sprite = rec.RecipeSprite;
                     correct = true;
                 }
             }
-
-            if (correct == false)
-            {
-                UIManager.Instance.WrongPanel();
-            }
+            StartCoroutine(ShowRightWrongPanel(correct));
         }
         else
         {
@@ -205,6 +204,19 @@ public class GameManager : MonoBehaviour
             int randomIndex = Random.Range(i, randomItemList.Count);
             randomItemList[i] = randomItemList[randomIndex];
             randomItemList[randomIndex] = temp;
+        }
+    }
+
+    private IEnumerator ShowRightWrongPanel(bool rightWrong)
+    {
+        yield return new WaitForSeconds(2f);
+        if (rightWrong == true)
+        {
+            UIManager.Instance.RightPanel();
+        }
+        else
+        {
+            UIManager.Instance.WrongPanel();
         }
     }
 }
