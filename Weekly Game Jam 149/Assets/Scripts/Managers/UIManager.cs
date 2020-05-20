@@ -45,6 +45,7 @@ public class UIManager : MonoBehaviour
 
     public void UpdateLastOneImage(Sprite sprite)
     {
+        LastOneLeftSprite.SetActive(true);
         LastOneLeftSprite.GetComponent<Image>().sprite = sprite;
     }
 
@@ -83,9 +84,9 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.time = 31f;
         GameManager.Instance.timeUp = false;
         GameManager.Instance.timeStop = false;
-        GameManager.Instance.lastOneLeft.Name = "";
         GameManager.Instance.canMix = true;
         LastOneLeftSprite.GetComponent<Image>().sprite = null;
+        LastOneLeftSprite.SetActive(false);
         CreatedPotion.GetComponent<Image>().sprite = null;
     }
 
