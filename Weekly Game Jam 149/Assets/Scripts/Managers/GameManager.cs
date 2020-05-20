@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     public bool timeStop = false;
 
     public bool canMix = true;
+    public bool newTurn = true;
 
     public List<Item> randomItemList = new List<Item>();
 
@@ -61,6 +62,16 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Mix();
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            int count = 0;
+            foreach (Item it in ItemsList.Instance.Items)
+            {
+                count++;
+                Debug.Log(it.Name);
+            }
+            Debug.Log(count);
         }
     }
 
@@ -212,7 +223,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator ShowRightWrongPanel(bool rightWrong)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
         if (rightWrong == true)
         {
             UIManager.Instance.RightPanel();
