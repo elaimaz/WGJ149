@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
     public bool timeUp = false;
     public bool timeStop = false;
 
+    public bool canMix = true;
+
     public List<Item> randomItemList = new List<Item>();
 
     private void Awake()
@@ -132,8 +134,9 @@ public class GameManager : MonoBehaviour
 
     public void Mix()
     {
-        if (lastOneLeft.Name.Length > 0)
+        if (lastOneLeft.Name.Length > 0 && canMix == true)
         {
+            canMix = false;
             timeStop = true;
             string liquid;
             string solid;

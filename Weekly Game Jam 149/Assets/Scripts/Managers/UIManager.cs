@@ -84,6 +84,7 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.timeUp = false;
         GameManager.Instance.timeStop = false;
         GameManager.Instance.lastOneLeft.Name = "";
+        GameManager.Instance.canMix = true;
         LastOneLeftSprite.GetComponent<Image>().sprite = null;
         CreatedPotion.GetComponent<Image>().sprite = null;
     }
