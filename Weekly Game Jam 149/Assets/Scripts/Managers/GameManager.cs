@@ -63,19 +63,9 @@ public class GameManager : MonoBehaviour
         {
             Mix();
         }
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            int count = 0;
-            foreach (Item it in ItemsList.Instance.Items)
-            {
-                count++;
-                Debug.Log(it.Name);
-            }
-            Debug.Log(count);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            Debug.Log(recipe.Name);
+            Application.Quit();
         }
     }
 
