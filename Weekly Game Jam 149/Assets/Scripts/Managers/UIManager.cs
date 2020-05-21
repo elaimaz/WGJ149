@@ -32,7 +32,8 @@ public class UIManager : MonoBehaviour
     public void UpdateOrderPanelText(string order, string rock, string liquid, string magic)
     {
         Text text = OrderPanel.GetComponentInChildren<Text>();
-        text.text = "Order: " + order + "\n\nRecipe:" + rock + " + " + liquid + " + " + magic;
+        text.text = "Order: " + "\n\n" + OrderList.Instance.RandomIntro() + "\n" + OrderList.Instance.RandomFirstRequest() + "\n" + OrderList.Instance.RandomSecondRequest();
+        //text.text = "Order: " + order + "\n\nRecipe:" + rock + " + " + liquid + " + " + magic;
     }
 
     public void UpdateDescriptionPanelText(string description, string title, string type)
@@ -85,6 +86,9 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.timeUp = false;
         GameManager.Instance.timeStop = false;
         GameManager.Instance.canMix = true;
+        OrderList.Instance.InitializeIntro();
+        OrderList.Instance.PopulateFirstRequest();
+        OrderList.Instance.PopulateSecondRequest();
         LastOneLeftSprite.GetComponent<Image>().sprite = null;
         LastOneLeftSprite.SetActive(false);
         CreatedPotion.GetComponent<Image>().sprite = null;

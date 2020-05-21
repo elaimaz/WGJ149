@@ -73,6 +73,10 @@ public class GameManager : MonoBehaviour
             }
             Debug.Log(count);
         }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Debug.Log(recipe.Name);
+        }
     }
 
     public void ChooseRandomOrder()
@@ -83,6 +87,9 @@ public class GameManager : MonoBehaviour
         recipesCount = ItemsRecipes.Instance.Recipes.Count;
         randomRecipeNumber = Random.Range(0, recipesCount - 1);
         recipe = ItemsRecipes.Instance.Recipes[randomRecipeNumber];
+        OrderList.Instance.InitializeIntro();
+        OrderList.Instance.PopulateFirstRequest();
+        OrderList.Instance.PopulateSecondRequest();
 
         RevelItems(recipe);
 
