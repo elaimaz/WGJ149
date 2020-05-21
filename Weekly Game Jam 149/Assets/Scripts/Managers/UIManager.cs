@@ -1,5 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -103,5 +103,10 @@ public class UIManager : MonoBehaviour
     {
         int timer = (int)GameManager.Instance.time;
         OrderPanel.transform.GetChild(1).GetComponent<Text>().text = "Time: " + timer.ToString();
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
