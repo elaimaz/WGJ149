@@ -40,7 +40,7 @@ public class UIManager : MonoBehaviour
     {
         Text text = DescriptionPanel.GetComponentInChildren<Text>();
         Text itemName = DescriptionPanel.transform.GetChild(1).GetComponent<Text>();
-        text.text = "Description: " + description + "\n\nType: " + type;
+        text.text = "Description: " + description;
         itemName.text = "Item: " + title;
     }
 
